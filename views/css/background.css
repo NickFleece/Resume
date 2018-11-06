@@ -1,14 +1,36 @@
 .main_body_background {
-    background-image:url("../images/main_background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+  margin: auto;
+  background-image:url("../images/main_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 .name_centered {
   text-align: center;
-  margin-top: 15vw;
-  margin-bottom: 34vw;
+  margin-top: 5vw;
+  margin-bottom: 40vw;
+}
+
+.name_text {
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 7vw;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 10;
+}
+
+.name_text_subtext {
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0 0 72px;
+  text-align: center;
 }
 
 .content_background {
