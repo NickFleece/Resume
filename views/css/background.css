@@ -1,0 +1,17 @@
+.main_body_background {
+    background-image:url("../images/main_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.name_centered {
+  text-align: center;
+  margin-top: 15vw;
+  margin-bottom: 34vw;
+}
+
+.content_background {
+  background-color: white;
+  background-size: 100% 100%;
+}
