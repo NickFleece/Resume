@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="/css/background.css">
+    <% include _base.ejs %>
   </head>
   <body>
     <div class="mainBodyBackground">
@@ -10,8 +10,15 @@
       </div>
     </div>
     <div class="contentBackground">
-      <div>
-        <img src="../images/main_profile_picture_circle.png" id="profilePicture"/>
+      <div class="row">
+        <div class="col-4">
+          <img src="../images/main_profile_picture_circle.png" id="profileImage" class="img-responsive"/>
+        </div>
+        <div class="col-5 lead d-flex align-items-center largeText">
+          Hi! I'm Nick, a 4th year computer science student at uOttawa
+          with professional experience both working in web and application
+          development environments.
+        </div>
       </div>
     </div>
   </body>

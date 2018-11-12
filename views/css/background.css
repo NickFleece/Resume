@@ -46,18 +46,21 @@ html, body {
   height: 500px;
 }
 
-.imageCircle {
-    width: 400px;
-    height: 400px;
-
-    overflow: hidden;
-    border-radius: 50%;
+.row {
+  margin: 0;
 }
 
-/* For 1080p images */
-#profilePicture {
-    width:500px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+#profileImage {
+  width: 100%;
+  height: auto;
+}
+
+.verticalCenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.largeText {
+  font-size: 30px;
 }
