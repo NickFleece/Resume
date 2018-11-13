@@ -55,6 +55,11 @@ html, body {
   height: auto;
 }
 
+.imgSmall {
+  width: 150px;
+  height: auto;
+}
+
 .verticalCenter {
   display: inline-block;
   vertical-align: middle;
