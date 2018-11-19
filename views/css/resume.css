@@ -40,14 +40,9 @@ html, body {
   text-align: center;
 }
 
-.contentBackground {
-  background-color: #fff;
-  background-size: 100% 100%;
-  height: 500px;
-}
-
 .row {
   margin: 0;
+  padding-top: 30;
 }
 
 .imgFill {
@@ -68,4 +63,8 @@ html, body {
 
 .largeText {
   font-size: 30px;
+}
+
+.alternateContentBackground {
+  background-color: #f2f2f2;
 }
