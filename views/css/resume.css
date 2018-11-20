@@ -55,16 +55,15 @@ html, body {
   height: auto;
 }
 
-.verticalCenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
-}
-
 .largeText {
   font-size: 30px;
 }
 
 .alternateContentBackground {
   background-color: #f2f2f2;
+}
+
+.experienceList {
+  padding-top: 100px;
+  padding-bottom: 25px;
 }
