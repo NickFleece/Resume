@@ -12,10 +12,7 @@
 
     <div>
       <div class="row">
-        <div class="col-lg-3 offset-lg-1 col-12">
-          <img src="../images/main_profile_picture_circle.png" class="img-responsive imgFill"/>
-        </div>
-        <div class="col-lg-7 col-12 lead d-flex align-items-center largeText">
+        <div class="col-8 offset-2 lead d-flex align-items-center largeText">
           Hi! I'm Nick, a Masters in Applied AI student at uOttawa with professional experience working both in web and application development environments.
           Currently, I'm working with Professor Robert Laganière on my thesis in computer vision and deep learning, specifically pose-based intermediate representations for action recognition.
         </div>
@@ -31,8 +28,10 @@
         </div>
 
         <div class="row experienceList">
-          <div class="col-lg-2 offset-lg-2 col-8 offset-2 col-centered">
-            <img src="../images/kegshoe-logo.svg" class="img-responsive imgFill imageShadow"/>
+          <div class="col-lg-2 offset-lg-2 col-6 offset-3 col-centered">
+            <div style="padding-bottom:100">
+              <img src="../images/kegshoe-logo.svg" class="img-responsive imgFill imageShadow"/>
+            </div>
           </div>
           <div class="col-lg-5 offset-lg-1 col-8 offset-2 col-centered">
             <h4>
@@ -42,14 +41,16 @@
             <p>
               Currently, I work for keg-tracking company Kegshoe.
               We provide keg-tracking software to breweries in order to help them keep track of where the kegs are as well as keg turnover.
-              This app is based in PHP using the slim-3 framework as well as thestandard webapp HTML/CSS/Javascript frontend and a MySQL database.
+              This app is based in PHP using the slim-3 framework as well as a standard webapp HTML/CSS/Javascript frontend and a MySQL database.
             </p>
           </div>
         </div>
 
         <div class="row experienceList">
           <div class="col-lg-2 offset-lg-2 col-8 offset-2 col-centered">
-            <img src="../images/uottawa-logo.png" class="img-responsive imgFill imageShadow"/>
+            <div style="padding-bottom:100">
+              <img src="../images/uottawa-logo.png" class="img-responsive imgFill imageShadow"/>
+            </div>
           </div>
           <div class="col-lg-5 offset-lg-1 col-8 offset-2 col-centered">
             <h4>
@@ -60,8 +61,9 @@
               In addition to Kegshoe work, I worked as a Teaching Assistant for several University courses listed below.
               This involved helping students in understanding course content, as well as correcting assignments and exams.
               <ul>
-                <li>CSI 2110 - Data Structures and Algorithms <small>- September 2020</small></li>
-                <li>CSI 4142 - Data Science <small>- Winter 2021 (current)</small></li>
+                <li>CSI 2110 - Data Structures and Algorithms <small>- Fall 2020, Fall 2021</small></li>
+                <li>CSI 4142 - Data Science <small>- Winter 2021, Winter 2022 (current)</small></li>
+                <li>CSI 3140 - WWW Structures, Techniques and Standards <small>- Summer 2022</small></li>
               </ul>
             </p>
           </div>
@@ -69,7 +71,9 @@
 
         <div class="row experienceList">
           <div class="col-lg-2 offset-lg-2 col-8 offset-2 col-centered">
-            <img src="../images/mccm-logo.png" class="img-responsive imgFill imageShadow"/>
+            <div style="padding-bottom:100">
+              <img src="../images/mccm-logo.png" class="img-responsive imgFill imageShadow"/>
+            </div>
           </div>
           <div class="col-lg-5 offset-lg-1 col-8 offset-2 col-centered">
             <h4>
@@ -86,8 +90,8 @@
 
         <div class="row experienceList">
           <div class="col-lg-2 offset-lg-2 col-8 offset-2 col-centered">
-            <div class="imageShadow">
-              <img src="../images/pspc-logo.png" class="img-responsive imgFill"/>
+            <div style="padding-bottom:100">
+              <img src="../images/pspc-logo.png" class="img-responsive imgFill imageShadow"/>
             </div>
           </div>
           <div class="col-lg-5 offset-lg-1 col-8 offset-2 col-centered">
@@ -103,6 +107,115 @@
         </div>
 
       </div>
+
+      <div class="row">
+        <div class="col-12 display-3 text-center">
+          <p>
+            Research Projects
+          </p>
+        </div>
+      </div>
+
+      <div class="row experienceList">
+        <div class="col-6 offset-3 col-centered">
+          <h3>
+            CATSA Search Validation Action Recognition <small>(Work in progress)</small>
+          </h3>
+          <h6>
+            PyTorch, TensorFlow
+          </h6>
+          <hr>
+          Validated that various areas of a car were searched by security officers at airport entry
+          gates. This was done through a two step process where I first utilized a state-of-the-art
+          person detection model (ByteTrack), then passed that information along to a pretrained
+          model (Resnet 3D) which was fine-tuned to match the use case of the task.
+        </div>
+      </div>
+
+      <div class="row experienceList">
+        <div class="col-6 offset-3 col-centered">
+          <h3>
+            Intermediate Representations for Pose-Based Action Recognition <small>(Work in progress)</small>
+          </h3>
+          <h6>
+            PyTorch, TensorFlow
+          </h6>
+          <hr>
+          Utilized exclusively 2-dimensional pose data in order to classify human actions. This
+          was done through a small, novel convolutional network. This work was done in
+          conjunction with WRNCH and is being developed as a part of my master’s thesis.
+        </div>
+      </div>
+
+      <div class="row experienceList">
+        <div class="col-6 offset-3 col-centered">
+          <h3>
+            Simple Models for Solving VQA
+          </h3>
+          <h6>
+            TensorFlow (Keras)
+          </h6>
+          <hr>
+          Investigating VQA (Visual Question Answering, utilizing both image and text data to
+          answer a question), it was found that many models were very complex and difficult to
+          interpret, so we proposed two new styles of model. The first was a VAE-style model
+          where we concatenated the image and text data. The second was a simple CNN-style
+          model where the image and text data were combined and passed through a simple
+          CNN. The results were negative, showing that model complexity is often needed for
+          these types of issues.
+        </div>
+      </div>
+
+      <div class="row experienceList">
+        <div class="col-6 offset-3 col-centered">
+          <h3>
+            Energy-GAN’s Using Hopfield Energy Equations
+          </h3>
+          <h6>
+            PyTorch
+          </h6>
+          <hr>
+          Utilized the theory behind Hopfield network energy equations to replace the
+          discriminator used in most modern GANs. The results were mixed, with most generators
+          resulting in mode collapse; a combined discriminator and energy approach was
+          determined to give better results.
+        </div>
+      </div>
+
+      <div class="row experienceList">
+        <div class="col-6 offset-3 col-centered">
+          <h3>
+            Diabetes Dataset Exploration & Prediction
+          </h3>
+          <h6>
+            Scikit-Learn
+          </h6>
+          <hr>
+          Used a dataset looking at risks of hospital readmission rates in people who have been
+          hospitalized for diabetes to find high risk factors in hospitalized patients. This data was
+          then passed through several different models to attempt to determine if a model can
+          correctly predict whether someone will be readmitted to the hospital. The results
+          showed that most models were able to predict whether someone would be readmitted
+          with approximately 70% accuracy. In addition, some unlabelled data was used for
+          semi-supervised learning, which led to a slight increase in accuracy.
+        </div>
+      </div>
+
+      <div class="row experienceList">
+        <div class="col-6 offset-3 col-centered">
+          <h3>
+            DNS Exfiltration Detection Using Machine Learning
+          </h3>
+          <h6>
+            Scikit-Learn
+          </h6>
+          <hr>
+          Worked with Professor Miguel Garzon at the University of Ottawa in order to detect
+          when data is being exfiltrated through the DNS protocol. Utilized machine learning and a
+          random forest classifier and achieved an F1-score greater than 99%.
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
