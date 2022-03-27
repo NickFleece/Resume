@@ -18,7 +18,7 @@ html, body {
 .nameCentered {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -77,4 +77,9 @@ html, body {
   background-color: white;
   box-shadow: 5px 5px 10px grey;
   padding:10px;
+}
+
+.linkIcon {
+  margin: auto;    
+  display: block;
 }
