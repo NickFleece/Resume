@@ -10,4 +10,8 @@ app.get('/', function(req, res) {
     res.render('index');
 });
 
+app.get('/CSI4900Report', function(req, res) {
+    res.render('reports/CSI4900_Report')
+})
+
 app.listen(port, () => console.log(`Resume app listening on port ${port}!`));
